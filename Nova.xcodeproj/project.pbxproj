@@ -11,14 +11,35 @@
 		EF4EE98E2CFD7CB1008D3FB6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4EE98D2CFD7CB1008D3FB6 /* ContentView.swift */; };
 		EF4EE9902CFD7CB2008D3FB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4EE98F2CFD7CB2008D3FB6 /* Assets.xcassets */; };
 		EF4EE9932CFD7CB2008D3FB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4EE9922CFD7CB2008D3FB6 /* Preview Assets.xcassets */; };
+		EF4EE9AB2CFDD0EE008D3FB6 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4EE99D2CFDD0EE008D3FB6 /* UIColor.swift */; };
+		EF4EE9AC2CFDD0EE008D3FB6 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF4EE99F2CFDD0EE008D3FB6 /* Poppins-Bold.ttf */; };
+		EF4EE9AD2CFDD0EE008D3FB6 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF4EE9A02CFDD0EE008D3FB6 /* Poppins-Medium.ttf */; };
+		EF4EE9AE2CFDD0EE008D3FB6 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF4EE9A12CFDD0EE008D3FB6 /* Poppins-Regular.ttf */; };
+		EF4EE9AF2CFDD0EE008D3FB6 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF4EE9A22CFDD0EE008D3FB6 /* Poppins-SemiBold.ttf */; };
+		EF4EE9B02CFDD0EE008D3FB6 /* chatAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = EF4EE9A42CFDD0EE008D3FB6 /* chatAnimation.json */; };
+		EF4EE9B12CFDD0EE008D3FB6 /* risk_profile.json in Resources */ = {isa = PBXBuildFile; fileRef = EF4EE9A52CFDD0EE008D3FB6 /* risk_profile.json */; };
+		EF4EE9B22CFDD0EE008D3FB6 /* success.json in Resources */ = {isa = PBXBuildFile; fileRef = EF4EE9A62CFDD0EE008D3FB6 /* success.json */; };
+		EF4EE9B32CFDD0EE008D3FB6 /* Typing.json in Resources */ = {isa = PBXBuildFile; fileRef = EF4EE9A72CFDD0EE008D3FB6 /* Typing.json */; };
+		EF4EE9B82CFDD1EE008D3FB6 /* FontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4EE9B72CFDD1EE008D3FB6 /* FontModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EF4EE9882CFD7CB1008D3FB6 /* Nova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nova.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF4EE98B2CFD7CB1008D3FB6 /* NovaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovaApp.swift; sourceTree = "<group>"; };
 		EF4EE98D2CFD7CB1008D3FB6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		EF4EE98F2CFD7CB2008D3FB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF4EE98F2CFD7CB2008D3FB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Assets.xcassets; sourceTree = "<group>"; };
 		EF4EE9922CFD7CB2008D3FB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF4EE99D2CFDD0EE008D3FB6 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		EF4EE99F2CFDD0EE008D3FB6 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		EF4EE9A02CFDD0EE008D3FB6 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		EF4EE9A12CFDD0EE008D3FB6 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		EF4EE9A22CFDD0EE008D3FB6 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		EF4EE9A42CFDD0EE008D3FB6 /* chatAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chatAnimation.json; sourceTree = "<group>"; };
+		EF4EE9A52CFDD0EE008D3FB6 /* risk_profile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = risk_profile.json; sourceTree = "<group>"; };
+		EF4EE9A62CFDD0EE008D3FB6 /* success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = success.json; sourceTree = "<group>"; };
+		EF4EE9A72CFDD0EE008D3FB6 /* Typing.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Typing.json; sourceTree = "<group>"; };
+		EF4EE9B42CFDD17D008D3FB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EF4EE9B72CFDD1EE008D3FB6 /* FontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +72,11 @@
 		EF4EE98A2CFD7CB1008D3FB6 /* Nova */ = {
 			isa = PBXGroup;
 			children = (
+				EF4EE9B52CFDD1DA008D3FB6 /* Modifier */,
+				EF4EE9B42CFDD17D008D3FB6 /* Info.plist */,
+				EF4EE9A92CFDD0EE008D3FB6 /* Resource */,
 				EF4EE98B2CFD7CB1008D3FB6 /* NovaApp.swift */,
 				EF4EE98D2CFD7CB1008D3FB6 /* ContentView.swift */,
-				EF4EE98F2CFD7CB2008D3FB6 /* Assets.xcassets */,
 				EF4EE9912CFD7CB2008D3FB6 /* Preview Content */,
 			);
 			path = Nova;
@@ -65,6 +88,63 @@
 				EF4EE9922CFD7CB2008D3FB6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF4EE99E2CFDD0EE008D3FB6 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				EF4EE98F2CFD7CB2008D3FB6 /* Assets.xcassets */,
+				EF4EE99D2CFDD0EE008D3FB6 /* UIColor.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		EF4EE9A32CFDD0EE008D3FB6 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				EF4EE99F2CFDD0EE008D3FB6 /* Poppins-Bold.ttf */,
+				EF4EE9A02CFDD0EE008D3FB6 /* Poppins-Medium.ttf */,
+				EF4EE9A12CFDD0EE008D3FB6 /* Poppins-Regular.ttf */,
+				EF4EE9A22CFDD0EE008D3FB6 /* Poppins-SemiBold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		EF4EE9A82CFDD0EE008D3FB6 /* LottieAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				EF4EE9A42CFDD0EE008D3FB6 /* chatAnimation.json */,
+				EF4EE9A52CFDD0EE008D3FB6 /* risk_profile.json */,
+				EF4EE9A62CFDD0EE008D3FB6 /* success.json */,
+				EF4EE9A72CFDD0EE008D3FB6 /* Typing.json */,
+			);
+			path = LottieAnimation;
+			sourceTree = "<group>";
+		};
+		EF4EE9A92CFDD0EE008D3FB6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EF4EE99E2CFDD0EE008D3FB6 /* Color */,
+				EF4EE9A32CFDD0EE008D3FB6 /* Font */,
+				EF4EE9A82CFDD0EE008D3FB6 /* LottieAnimation */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		EF4EE9B52CFDD1DA008D3FB6 /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				EF4EE9B62CFDD1E2008D3FB6 /* Font */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+		EF4EE9B62CFDD1E2008D3FB6 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				EF4EE9B72CFDD1EE008D3FB6 /* FontModifier.swift */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +206,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF4EE9932CFD7CB2008D3FB6 /* Preview Assets.xcassets in Resources */,
+				EF4EE9B32CFDD0EE008D3FB6 /* Typing.json in Resources */,
+				EF4EE9AF2CFDD0EE008D3FB6 /* Poppins-SemiBold.ttf in Resources */,
+				EF4EE9B02CFDD0EE008D3FB6 /* chatAnimation.json in Resources */,
 				EF4EE9902CFD7CB2008D3FB6 /* Assets.xcassets in Resources */,
+				EF4EE9B22CFDD0EE008D3FB6 /* success.json in Resources */,
+				EF4EE9AE2CFDD0EE008D3FB6 /* Poppins-Regular.ttf in Resources */,
+				EF4EE9AC2CFDD0EE008D3FB6 /* Poppins-Bold.ttf in Resources */,
+				EF4EE9B12CFDD0EE008D3FB6 /* risk_profile.json in Resources */,
+				EF4EE9AD2CFDD0EE008D3FB6 /* Poppins-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +226,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF4EE98E2CFD7CB1008D3FB6 /* ContentView.swift in Sources */,
+				EF4EE9AB2CFDD0EE008D3FB6 /* UIColor.swift in Sources */,
 				EF4EE98C2CFD7CB1008D3FB6 /* NovaApp.swift in Sources */,
+				EF4EE9B82CFDD1EE008D3FB6 /* FontModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +365,7 @@
 				DEVELOPMENT_TEAM = 46WQ6W6QY7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nova/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +395,7 @@
 				DEVELOPMENT_TEAM = 46WQ6W6QY7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nova/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
