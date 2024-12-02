@@ -32,6 +32,7 @@ struct ContentView: View {
                 Spacer()
                
             }
+            .padding(.horizontal,20)
             
             Spacer().frame(height: 32)
             
@@ -52,21 +53,27 @@ struct ContentView: View {
             
             Spacer().frame(height: 32)
             
-            
-            HStack{
-                ScrollView{
-                    LazyHStack(spacing: 18) {
-                        
-                        ForEach(0...9,id: \.self) { index in
-                            
+            VStack{
+                ScrollView(.horizontal, showsIndicators: false) {
+                    LazyHStack(spacing: 20) {
+                        ForEach(0...9, id: \.self) { index in
                             PromptCell()
+                                .frame(width: 200,height: 310)
+                                .cornerRadius(12)
                         }
                     }
+                    .padding(.horizontal)
                 }
             }
+            .frame(height: 310)
+            .background(.green)
+            
+            
+            Spacer()
             
 
         }
+        
         
     }
 }
@@ -100,6 +107,8 @@ struct PromptCell: View {
                     Spacer()
                     
                     Image(systemName: "chevron.forward")
+                        .foregroundColor(Color(.white))
+
                     
                 }
                 
